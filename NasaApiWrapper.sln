@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaApiWrapper", "NasaApiWrapper\NasaApiWrapper.csproj", "{9C41E550-CEC3-4F7B-A953-D42ED0D4EFAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C41E550-CEC3-4F7B-A953-D42ED0D4EFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C41E550-CEC3-4F7B-A953-D42ED0D4EFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C41E550-CEC3-4F7B-A953-D42ED0D4EFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C41E550-CEC3-4F7B-A953-D42ED0D4EFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
