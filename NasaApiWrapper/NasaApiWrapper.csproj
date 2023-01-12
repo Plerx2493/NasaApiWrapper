@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="NasaDto" Version="1.6.66" />
+      <PackageReference Include="System.Threading" Version="4.3.0" />
+      <PackageReference Include="System.Threading.RateLimiting" Version="7.0.0" />
+    </ItemGroup>
+
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace NasaApiWrapper;
 
-public class Utility
+internal static class Utility
 {
-    
+    internal const string DateFormat = "YYYY-MM-DD";
 }

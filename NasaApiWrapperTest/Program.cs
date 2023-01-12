@@ -1,3 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using NasaApiWrapper;
 
-Console.WriteLine("Hello, World!");
+namespace NasaApiWrapperTest;
+
+public static class Programm
+{
+    public static void Main()
+    {
+        var nasa = new NasaApiClient("ZsIKgYsYUBmqqRVUwHR8MCTsVmcfuhJBIZFTVh8A");
+        
+        var apodtoday = nasa.Apod.GetApodToday().GetAwaiter().GetResult();
+        
+        Console.WriteLine("test");
+        
+    }
+}
